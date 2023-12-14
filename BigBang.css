@@ -1,0 +1,36 @@
+#User > img, #Computer > img {
+    width: 370px;
+    height: 370px;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+}
+
+#Winner {
+    background-color: rgb(1, 192, 1);
+    font-size: x-large;
+    margin: auto;
+}
+
+#Tied {
+   background-color: rgb(101, 255, 255);
+   font-size: x-large;
+   margin: auto;
+}
+
+#Loser {
+    background-color: red;
+    font-size: x-large;
+    margin: auto;
+}
+
+#Result > span > p {
+    background-color: rgb(101, 255, 255);
+    text-align: center;
+    font-size: x-large;
+    margin: auto;
+    max-width: 742px;
+    margin-left: 0%; 
+}
